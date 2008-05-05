@@ -1,0 +1,184 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	padding: 22px;
+	}
+	
+.pt8{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	}
+.pt8_bold{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: 600;
+	}
+.pt9{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	}
+.pt10{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	}
+a {
+	color: #909;
+	font-weight: normal;
+	}
+a:hover{
+	color: #cc0000;
+	font-weight: normal;
+	text-decoration: none;
+	}
+a.qmenu {
+	color: #0243a3;
+	font-weight: normal;
+	text-decoration: none;
+	}
+a.qmenu:hover{
+	color: #0000cc;
+	font-weight: normal;
+	text-decoration: none;
+	}
+a.wmenu {
+	color: #666666;
+	font-weight: normal;
+	text-decoration: none;
+	}
+a.wmenu:hover{
+	color: #a6a6a6;
+	font-weight: normal;
+	text-decoration: none;
+	}
+a.emenu {
+	color: #336633;
+	font-weight: normal;
+	text-decoration: none;
+	}
+a.emenu:hover{
+	color: #33a633;
+	font-weight: normal;
+	text-decoration: none;
+	}
+input{ 
+	border-width : 1 1 1 1; 
+	font-family : tahoma,verdana,sans-serif; 
+	font-size: 9pt 
+	}
+textarea{ 
+	font-family : tahoma,verdana,sans-serif; 
+	border-width : 1 1 1 1; 
+	font-size: 9pt 
+	}
+select{
+	border-width : 1 1 1 1;
+}
+code {
+	color: #000099;
+	}
+.title {
+	font-size: 18pt;
+	font-weight: normal;
+	color: #060;
+	}
+.stitle {
+	font-size: 14pt;
+	font-weight: normal;
+	color: #660;
+	}
+.grey {
+	color: #999999;
+	background: #e0e0e0;
+	}
+.norecord {
+	padding: 12px 24px 12px 24px;
+	background-color: #900;
+	color: #fff;
+	}
+.pointer {
+	color: #cccccc;
+	}
+.red {
+	color: #990000;
+	background: #eeeee8;
+	}
+a.pages {
+	color: #990000;
+	font-weight: normal;
+	text-decoration: none;
+	}
+a.pages:hover{
+	color: #cc0000;
+	font-weight: normal;
+	text-decoration: none;
+	}
+.cpage {
+	color: #cc0000;
+	font-weight: bold;
+	}
+.header {
+	font-weight: normal;
+	color: #666;
+	background: #fff;
+	border-right: solid #eee 1px;
+	}
+.finfo {
+	color: #000000;
+	background: #f9f9f9;
+	}
+.ninfo {
+	color: #000000;
+	background: #f3f3f3;
+	}
+.ginfo {
+	color: #030;
+	background: #f3fff3;
+	padding: 14px;
+	}
+.einfo {
+	color: #000000;
+	background: #f9f9f9;
+	}
+.eedit {
+	color: #000000;
+	background: #f3f3f3;
+	}
+.etitle {
+	font-size: 9pt;
+	font-weight: bold;
+	color: #333333;
+	}
+.ecomment {
+	font-size: 8pt;
+	font-weight: normal;
+	color: #666666;
+	}
+.result {
+	font-weight: bold;
+	color: #666666;
+	}
+input.sub {
+	color: #333333;
+	background:#CFCFCF url(s_bg.gif) repeat-x;
+	font-family: Arial, sans-serif;
+	font-size: 8pt;
+	border: 1px solid #999999;
+	background-color : #F8F8FF;
+	height : 19px;
+}
+
+P {
+	margin: 0px 0px 0px 0px;
+}
+
+LI {
+	margin: 0px 0px 0px 0px;
+}
+
+UL {
+	margin: 0px 0px 0px 0px;
+}
+
+
+
+

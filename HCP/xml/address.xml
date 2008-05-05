@@ -1,0 +1,8 @@
+<textbox name='zip' title='Индекс' pattern='integer' notice='... только цифры' max='6' mustbe='0' />
+<memorybox source='state' name='state' title='Страна' pattern='string' notice='... должно быть' max='128' mustbe='1' />
+<memorybox source='region' name='region' title='Регион' pattern='string' notice='... должно быть' max='128' mustbe='1' />
+<memorybox source='city' name='city' title='Город' pattern='string' notice='... должно быть' max='64' mustbe='1' />
+<memorybox source='street' name='street' title='Улица' pattern='string' notice='... должно быть' max='128' mustbe='1' />
+<textbox name='house' title='Дом' pattern='string' notice='... должно быть' max='8' mustbe='0'/>
+<textbox name='flat' title='Квартира/Офис' pattern='string' notice='... должно быть' max='8' mustbe='0'/>
+<notebox name='comment' title='Краткое описание' mustbe='0'/>	

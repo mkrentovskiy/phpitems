@@ -1,0 +1,1 @@
+<?	class UCConfigChart extends UseCase 	{		function defaultAction($p)		{		        global $session;									$o = $this->chart->get();			$a = $this->getListFromInput($o, $_POST, "id_products", "num", "p");						$this->chart->set($a);				            $session->set('r_chart', $this->chart);													$this->goToUsecase("ShowChart");			return $p;		}	}?>

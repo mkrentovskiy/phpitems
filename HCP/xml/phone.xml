@@ -1,0 +1,5 @@
+<textbox name='country' title='Код страны' pattern='integer' notice='... только цифры' max='4' mustbe='1'/>
+<textbox name='area' title='Регион/Сеть' pattern='integer' notice='...  только цифры' max='5' mustbe='1'/>
+<textbox name='number' title='Номер' pattern='integer' notice='... только цифры' max='11' mustbe='1'/>
+<bool name='is_cellular' title='Мобильный телефон' mustbe='1'/>
+<bool name='is_fax' title='Принимает факсы' mustbe='1'/>		

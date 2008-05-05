@@ -1,0 +1,14 @@
+<textbox name='lname' title='Фамилия' pattern='string' notice='... должна быть задана' mustbe='1' max='128'/>
+<textbox name='fname' title='Имя' pattern='string' notice='... должно быть задано' mustbe='1' max='128'/>
+<textbox name='mname' title='Отчество' pattern='string' notice='... должно быть задано' mustbe='1' max='128'/>
+<memorybox name='title' title='Должность' source="titles" mustbe='1' pattern='string' notice='Шо, не при делах человек?' max='128'/>
+<variants name='sex' title='Пол' mustbe='1'>
+	<item value='1'>мужской</item>
+	<item value='2'>женский</item>
+	<item value='3'>инопланетянин</item>
+</variants>
+<calendar name='tborn' title='Дата рождения' lname='ttborn' mustbe='0'/>
+<textbox name='dserial' title='Паспорт серии' mustbe='0' max='4' pattern='\d' notice='...только циферки'/>
+<textbox name='dnumber' title='Паспорт номер' mustbe='0' max='6' pattern='\d' notice='...только циферки'/>
+<textbox name='ddpt' title='Паспорт выдан' mustbe='0' max='128'/>
+<calendar name='dtmark' lname='tdmark' title='Дата выдачи паспорта' mustbe='0'/>

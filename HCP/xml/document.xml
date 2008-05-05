@@ -1,0 +1,14 @@
+<selector name='type' title='Тип' source='types' field='title' mustbe='1' notice='Необходим тип документа!' onChange="getDocumentSubform(this.value);"/>
+<memorybox name='title' title='Название' source="titles" mustbe='1' pattern='string' notice='Заголовок должен быть!' max='255'/>
+<calendar name='tmark' title='Документ датируется' lname='tmark' mustbe='1' notice='Необходима дата для составления документа!'/>
+<variants name='repeat' title='Периодичность' mustbe='1' onChange="getRepeatSubform(this.value);">
+	<item value='1'>разово</item>
+	<item value='2'>ежемесячно</item>
+	<item value='3'>ежеквартально</item>
+	<item value='4'>ежегодно</item>
+	<subform id='sf_repeat'>
+		<calendar name='until' title='Документ датируется' lname='tmark' mustbe='0'/>
+		<bool name='skip_we' title='Пропускать выходные' mustbe='0'/>
+	</subform>
+</variants>
+<linker name='link' title='Привязать к' mustbe='1' onChange='checkDocumentLinkTo(this.value);'/>

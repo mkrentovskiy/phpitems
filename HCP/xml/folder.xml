@@ -1,0 +1,9 @@
+<textbox name='name' title='Название' pattern='string' notice='... должно быть задано' mustbe='1' max='255'/>
+<variants name='color' title='Цвет' mustbe='1'>
+	<item value='CCFFCC' style='color: #363; background-color: #CCFFCC;'>Зеленый</item>
+	<item value='FFFFCC' style='color: #663; background-color: #FFFFCC;'>Желтый</item>
+	<item value='CCCCFF' style='color: #336; background-color: #CCCCFF;'>Синий</item>
+	<item value='FFCCCC' style='color: #633; background-color: #FFCCCC;'>Красный</item>
+	<item value='FFCCFF' style='color: #636; background-color: #FFCCFF;'>Малиновый</item>
+	<item value='CCFFFF' style='color: #366; background-color: #CCFFFF;'>Морской волны</item>
+</variants>

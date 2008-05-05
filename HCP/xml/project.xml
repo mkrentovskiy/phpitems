@@ -1,0 +1,4 @@
+<selector name='type' title='Категория' source='types' field='type' mustbe='1'/>
+<textbox name='title' title='Название' pattern='string' notice='... должно быть задано' mustbe='1' max='255'/>
+<notebox name='description' title='Краткое описание' mustbe='0'/>
+

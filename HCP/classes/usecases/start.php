@@ -1,0 +1,1 @@
+<?	class UCStart extends UseCase 	{		function defaultAction($p)		{						$s = $this->eachPage();			$p->add("<document>".$s."</document>");			return $p;		}		function action($p)		{			$this->goToUsecase("showObjectsTree");						return $p;		}	}?>

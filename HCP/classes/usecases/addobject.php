@@ -1,0 +1,3 @@
+<?	class UCAddObject extends UseCase 	{		function action($p) 		{			global $db;			$s = ''; 			$cf = new ClassFactory;			if(isset($_GET['_class']) &&  ereg("([a-z]+)", $_GET['_class'])) {				$class = $_GET['_class'];								$pid = (isset($_GET['_pid']) && is_numeric($_GET['_pid'])) ? $_GET['_pid'] : 0;                $cf->addItem($this, $class, $pid);				$s .= $cf->getTreeElement($this, $class, $pid);
+				
+				$p->add("<ajaxdocument><".$class."s>".$s."</".$class."s></ajaxdocument>");										}			return $p;		}						function defaultAction($p)		{						$this->goToUsecase("Start");					}	}?>
