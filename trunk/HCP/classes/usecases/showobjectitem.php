@@ -1,0 +1,3 @@
+<?	class UCShowObjectItem extends UseCase 	{		function action($p) 		{			global $db;			$s = ''; 			$cf = new ClassFactory;			if(isset($_GET['oid']) && is_numeric($_GET['oid'])) {                $r = $cf->getDescription($this, $_GET['oid']);				$s = $cf->getObject($this, $r);				
+				// print $s;
+								$p->add("<ajaxdocument><".$r['class']."item>".$s."</".$r['class']."item></ajaxdocument>");										}			return $p;		}						function defaultAction($p)		{						$this->goToUsecase("Start");					}	}?>

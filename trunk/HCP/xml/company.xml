@@ -1,0 +1,17 @@
+<textbox name='title' title='Название' pattern='string' notice='... должно быть задано' mustbe='1' max='255'/>
+<variants name='fform' title='Орг.форма' mustbe='1'>
+	<item value='1'>ИП</item>
+	<item value='2'>ООО</item>
+	<item value='3'>ЗАО</item>
+	<item value='4'>ОАО</item>
+	<item value='5'>ГУП</item>
+	<item value='6'>другое</item>
+</variants>
+<textbox name='inn' title='ИНН' pattern='integer' notice='... должно быть задано верно' mustbe='1' max='10'/>
+<textbox name='kpp' title='КПП' pattern='integer' notice='... должно быть задано верно' mustbe='1' max='9'/>
+<textbox name='okved' title='ОКВЭД' pattern='integer' notice='... должно быть задано верно' mustbe='1' max='5'/>
+<textbox name='okpo' title='ОКПО' pattern='integer' notice='... должно быть задано верно' mustbe='1' max='8'/>
+<textbox name='email' title='E-mail' pattern='email' notice='... должно быть задано верно' mustbe='1' max='128'/>
+<calendar name='tborn' title='Дата создания' mustbe='0' lname='tb'/>
+<selector name='type' title='Тип' source='types' field='title' mustbe='1'/>
+

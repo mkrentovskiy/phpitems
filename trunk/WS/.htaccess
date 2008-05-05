@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteRule admin  - [L] 
+RewriteRule index\.php  -  [L]
+
+RewriteRule ([A-Za-z]+)/$ /index.php?usecase=$1
+RewriteRule ([A-Za-z]+)/([0-9]+)/$ /index.php?usecase=$1&id=$2
+

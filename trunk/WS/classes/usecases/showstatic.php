@@ -1,0 +1,1 @@
+<?	class UCShowStatic extends UseCase 	{		function defaultAction($p)		{			$p->add("<document>");			$p->add($this->eachPage());			if(isset($_GET['id']) && is_numeric($_GET['id'])) {				$p->add($this->resQuery("SELECT * FROM static WHERE id='".$_GET['id']."'", "block", "item"));			}			$p->add("</document>");			return $p;		}	}?>

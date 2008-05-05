@@ -1,0 +1,272 @@
+/*
+ = design
+*/
+
+#top {
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+#topitem {
+	padding: 20px;
+	}
+
+
+#menu {
+	font-family: Arial;
+	font-size: 12pt;
+	font-weight: normal;
+	padding: 0px 0px 20px 180px;
+	margin: 0px;
+	float: none;
+	}
+.menuitem {
+	padding: 20px;
+	float: left;
+	}
+.smenuitem {
+	padding: 20px;
+	background-color: #f9f9f9;
+	float: left;
+	}
+
+
+#itemstable {
+	clear: both; 	
+	}
+#content {
+	padding: 0px 32px 32px 32px;
+	margin: 0px;
+	}
+
+#leftpath {
+	padding: 20px;
+	}
+#infopath {
+	padding: 20px;
+	}
+
+#copyrights {
+	padding: 40px;
+	font-size: 8pt;
+	border-top: dotted #e0e0e0 1px; 
+	background-color: #f0f0f0;
+	}
+
+#enter {
+	background: #fff url('../i/i_entersys.png') no-repeat left top; 
+	color: transparent;
+	border: 0px;
+	width: 16px;
+	height: 16px;
+	}
+
+#filterpanel {
+	background-color: #f0f0f0;
+	}
+
+td.small {
+	font-family: Tahoma, sans-serif;
+	font-size: 7pt;
+	color: #666;
+	}
+td.text {
+	font-family: Tahoma, sans-serif;
+	font-size: 9pt;
+	color: #333;
+	}
+
+td.text > a, a:link, a:visited {
+	font-family: Tahoma, sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	color: #069;
+	text-decoration: underline;
+	}
+td.text > a:hover {
+	font-family: Tahoma, sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	color: #fff;
+	background-color: #069;
+	text-decoration: none;
+	}
+
+a.text, a.text:link, a.text:visited {
+	font-family: Tahoma, sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	color: #069;
+	text-decoration: underline;
+	}
+a.text:hover{
+	font-family: Tahoma, sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	color: #fff;
+	background-color: #069;
+	text-decoration: none;
+	}
+
+/*
+ = Trafic
+*/
+
+.rb {
+	border-right: dotted #ccc 1px;
+	}
+
+.aliasitem {
+	padding-top: 8px;
+	cursor: pointer;
+	}
+
+.aliasname {
+	font-size: 10pt;
+	font-weight: normal;
+	color: #006;	
+	}
+.aliasip {
+	font-size: 8pt;
+	font-weight: normal;
+	color: #666;
+	}
+	
+.addform {
+	background-color: #eef;
+	padding: 12px;
+	}
+
+.fs {
+	background-color: #eee;
+	}
+.ns {
+	background-color: #fff;
+	}
+.ss {
+	background-color: #cce;
+	}
+.total {
+	font-size: 11pt;
+	}
+td {
+	white-space: nowrap;
+	}
+.msg {
+	padding: 12px;
+	background: #ff0;
+	border: dotted 1px #f00;
+	color: #900;
+	font-size: 11pt;
+	white-space: normal;
+	}
+	
+th {
+	cursor: pointer;
+	}
+
+/*
+ = common tags
+*/
+
+
+body {
+	font-family: Tahoma, sans-serif;
+	font-size: 9pt;
+	background-color: #fff;
+	margin: 0px;
+	}
+table {
+	font-size: 9pt;
+	}
+h1 {
+	font-family: Arial;
+	font-size: 18pt;
+	font-weight: normal;
+	margin: 0px;
+	color: #FF8800;
+	}
+
+h2 {
+	font-family: Arial;
+	font-size: 15pt;
+	font-weight: normal;
+	margin: 0px;
+	color: #069;
+	}
+
+h3 {
+	font-family: Arial;
+	font-size: 12pt;
+	font-weight: normal;
+	margin: 0px;
+	color: #090;
+	}
+h4 {
+	font-family: Arial, sans-serif;
+	font-size: 12pt;
+	font-weight: normal;
+	margin: 0px;
+	color: #009;
+	}
+h4.red {
+	font-family: Arial, sans-serif;
+	font-size: 12pt;
+	font-weight: normal;
+	margin: 0px;
+	color: #900;
+	}
+
+
+small {
+	font-size: 8pt;
+	color: #999;
+	}
+img {
+	border: 0px;
+	}
+form {
+	padding: 0px;
+	margin: 0px;
+	}
+
+
+input {
+	border:  solid #ccc 1px;
+	font-size: 9pt;
+	background-color: #ffffff;
+	font-family : Tahoma, Verdana, sans-serif;
+	}
+select {
+	border: solid #ccc 1px;
+	background-color: #ffffff;
+	font-size: 9pt;
+	font-family : Tahoma, Verdana, sans-serif;
+	}
+textarea {
+	border: solid #ccc 1px; 
+	background-color: #ffffff;
+	font-size: 9pt;
+	font-family : Tahoma, Verdana, sans-serif;
+	}
+input.plain {
+	color: transparent;
+	border: 0px;	
+	font-size: 9pt;
+	background-color: transparent;
+	}
+input.silver {
+	color: #333333;
+	background:#CFCFCF url(../i/s_bg.gif) repeat-x;
+	font-family: Arial, sans-serif;
+	font-size: 9pt;
+	border: 1px solid #999999;
+	background-color : #F8F8FF;
+	height : 19px;
+	}
+	
+a, a:link, a:visited, a:hover { 
+	font-family: Tahoma, sans-serif;
+	font-weight: normal;
+	color: #069;
+	text-decoration: underline;
+	}

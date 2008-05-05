@@ -1,0 +1,4 @@
+<textbox name='title' title='Название' pattern='string' notice='... должно быть задано' mustbe='1' max='255'/>
+<filebox name='file' title='Файл' pattern='string' notice='... должно быть задано' mustbe='1' max='255' target="image"/>
+<bool name='preview' fname='has_preview' title='Использовать препросмотр' mustbe='0'/>
+<notebox name='comment' title='Краткое описание' mustbe='0'/>

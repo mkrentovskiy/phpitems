@@ -1,0 +1,1 @@
+<?	class UCShowChart extends UseCase 	{		function defaultAction($p)		{				$this->chart->setPrice($this->user->getPrice()."_price");			$x = $this->chart->getXML(); 			$s = $this->eachPage();			$s .= $x;						$p->add("<document>".$s."</document>");			return $p;		}	}?>

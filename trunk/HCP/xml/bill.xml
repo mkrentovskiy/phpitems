@@ -1,0 +1,4 @@
+<textbox name='bill' title='Счет' pattern='integer' notice='... только 20 цифр' max='20' mustbe='1'/>
+<memorybox source='bank' name='bank' title='Банк' pattern='string' notice='... должно быть' max='128' mustbe='1'/>
+<memorybox source='corbill' name='corbill' title='Кор.счет' pattern='integer' notice='... только 20 цифр' max='20' mustbe='1'/>
+<memorybox source='bik' name='bik' title='БИК' pattern='integer' notice='... только 9 цифр' max='9' mustbe='1'/>	

@@ -1,0 +1,356 @@
+input {
+	color: #333;
+	font-family: Tahoma, Verdana, sans-serif;
+	border: solid 1px #000;	
+	height: 17px;
+	font-size: 8pt;
+	background-color: #ffffff;
+	}
+input.plain {
+	color: transparent;
+	border: 0px;	
+	font-size: 8pt;
+	background-color: transparent;
+	}
+select{
+	color: #333;
+	font-family: Tahoma, Verdana, sans-serif;
+	border: solid 1px #000;	
+	height: 17px;
+	font-size: 8pt;
+	padding: 1px;
+	background-color: #fff;
+	}
+textarea{
+	color: #333;
+	font-family: Tahoma, Verdana, sans-serif;
+	border: solid 1px #000;	
+	height: 17px;
+	font-size: 8pt;
+	background-color: #ffffff;
+	}
+
+input.silver {
+	color: #333;
+	background:#CFCFCF url(../i/s_bg.gif) repeat-x;
+	font-family: Arial, sans-serif;
+	font-size: 8pt;
+	border: 1px solid #999999;
+	background-color : #F8F8FF;
+	height : 19px;
+	}
+
+
+.pt7 {
+	font-size: 7pt;
+	}
+.pt8 {
+	font-size: 8pt;
+	}
+.pt9 {
+	font-size: 9pt;
+	}
+
+a, a:visited, a:link, a:hover {
+	color: #c90;
+	text-decoration: underline;
+	}
+
+h1 {
+	font-family: Arial, sans-serif;
+	color: #c90;
+	font-size: 14pt;
+	font-weight: normal;
+	margin: 0px;
+	}
+
+h2 {
+	font-family: Arial, sans-serif;
+	color: #000;
+	font-size: 13pt;
+	font-weight: normal;
+	margin: 0px;
+	}
+h3 {
+	font-family: Arial, sans-serif;
+	color: #990;
+	font-size: 11pt;
+	font-weight: normal;
+	margin: 0px 0px 8px 0px;
+	}
+
+
+html, body {
+	font-family: Tahoma, Verdana, sans-serif;
+	color: #000;
+	background: #fff;
+	}
+
+table, td {
+	font-family: Tahoma, Verdana, sans-serif;
+	color: #000;
+	font-size: 8pt;
+	}
+
+#toptable {
+	width: 720px;
+	height: 156px;
+	background: #fffd51 url('../i/topbg.gif') repeat-x;
+	border: solid #ff6 1px;
+	}
+#searchtitle {
+	font-size: 8pt;
+	font-family: Tahoma, Arial, sans-serif;
+	color: #000;
+	font-weight: bold;
+	padding-left: 25px; 
+	padding-right: 25px; 
+	}
+#search {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	}
+#searchbutton {
+	padding-left: 1px;
+	padding-right: 25px;
+	}
+#searchtext {
+	color: #333;
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 8pt;
+	border: solid 1px #000;
+	padding: 1px;	
+	width: 180px;
+	}
+td.menu {
+	width: 70px;
+	padding: 6px 12px 6px 12px;
+	background: url('../i/mbg.gif') repeat-x;
+	white-space: nowrap;
+	}
+a.menu, a.menu:visited, a.menu:link {
+	color: #fff;
+	font-size: 8pt;
+	text-decoration: none;
+	text-transform: uppercase;
+	}
+a.menu:hover {
+	color: #fff;
+	font-size: 8pt;
+	text-decoration: none;
+	text-transform: uppercase;
+	}       
+
+td.smenu {
+	width: 70px;
+	padding: 6px 6px 6px 6px;
+	background: url('../i/smbg.gif') repeat-x;
+	white-space: nowrap;
+	}
+a.smenu, a.smenu:visited, a.smenu:link {
+	color: #fff;
+	font-size: 8pt;
+	text-decoration: none;
+	text-transform: uppercase;
+	}
+a.smenu:hover {
+	color: #fff;
+	font-size: 8pt;
+	text-decoration: none;
+	text-transform: uppercase;
+	}       
+
+#preview {
+	background: url(../i/pbg.gif) #ffffff repeat-x;			
+	color: #fff;
+}
+
+#previewtext {
+	color: #fff;
+	font-size: 8pt;
+	padding: 13px 13px 13px 13px;
+}
+#previewtextheader {
+	font-family: Franclin Gothic Medium, Arial, sans-serif;
+	font-size: 12pt;
+	padding-bottom: 7px;
+}
+#previewtextitem {
+	padding-left: 13px;
+}
+#previewtextsub {
+	color: #eee;
+	font-size: 7pt;
+	padding-left: 13px;
+	padding-top: 3px;
+}
+#category {
+	background: url(../i/cbg.gif) #ffffff repeat-x;			
+	font-size: 8pt;
+	font-weight: bold;
+	color: #000;
+}
+#categoryimg {
+	background: url(../i/cbg.gif) #ffffff repeat-x;			
+	padding: 5px;
+}
+
+a.category, a.category:link, a.category:visited {
+	color: #333;
+	font-size: 8pt;
+	text-decoration: none;
+	}
+a.category:hover {
+	color: #444;
+	font-size: 8pt;
+	text-decoration: underline;
+	}       
+
+.categoryitem {
+	padding: 3px;
+	}
+
+#contacts {
+	color: #333;
+	font-size: 8pt;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.consult {
+	padding-top: 7px;
+	padding-bottom: 4px;
+	color: #333;
+}
+a.icq, a.icq:link, a.icq:visited {
+	color: #1B74AB;
+	text-decoration: none;
+	}
+a.icq:hover {
+	color: #2485C6;
+	text-decoration: none;
+	}       
+
+input.login {
+	color: #333;
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 8pt;
+	border: solid 1px #000;	
+	height: 17px;
+	padding: 1px;
+}
+label.login {
+	color: #000;
+	font-size: 8pt;
+	border: 0px;
+}
+.loginheader {
+	color: #000;
+	font-size: 7pt;
+	font-weight: normal;
+}
+a.login, a.login:visited, a.login:link {
+	color: #000;
+	text-decoration: underline;
+	font-size: 8pt;
+	border: 0px;
+	}
+a.login:hover {
+	color: #cf0;
+	text-decoration: none;
+	font-size: 8pt;
+	border: 0px;
+	}       
+.logininfo {
+	color: #000;
+	font-size: 8pt;
+	font-weight: bold;
+	padding-left: 24px;
+}
+.logininfoitem {
+	color: #000;
+	font-size: 8pt;
+	padding-left: 24px;
+}
+.logintxt {
+	color: #000;
+	font-size: 9pt;
+}
+#loginbox {
+	padding: 14px 25px 14px 14px;;
+}
+td.pt {
+	padding-top: 22px;
+	padding-right: 16px;
+}
+td.pl {
+	padding-top: 22px;
+	padding-left: 16px;
+}
+td.ps {
+	padding-top: 22px;
+	padding-right: 16px;
+}
+td.pz {
+	padding-top: 22px;
+	padding-left: 16px;
+}
+.pdesc {
+	color: #333;
+	font-size: 8pt;
+	height: 110px;
+}
+.pwarn {
+	padding-bottom: 7px;
+	padding-top: 7px;
+	color: #333;
+	font-size: 8pt;
+}
+.ppricenum {
+	font-family: MS San Serif, Tahoma, Verdana, sans-serif;
+	font-size: 14pt;
+	color: #c90;
+}
+.ppriceeq {
+	color: #333;
+	font-size: 9pt;
+}
+a.pinfo, a.pinfo:visited, a.pinfo:link {
+	color: #c90;
+	text-decoration: none;
+	font-size: 8pt;
+	font-weight: normal;
+	}
+a.pinfo:hover {
+	color: #999;
+	text-decoration: none;
+	font-size: 8pt;
+	font-weight: normal;
+	}       
+a.pchart, a.pchart:link, a.pchart:visited {
+	color: #c90;
+	text-decoration: none;
+	font-size: 8pt;
+	font-weight: normal;
+	}
+a.pchart:hover {
+	color: #000;
+	text-decoration: none;
+	font-size: 8pt;
+	font-weight: normal;
+	}       
+.small {
+	font-family: Tahoma, Arial, sans-serif;
+	color: #333;
+	font-size: 7pt;
+	font-weight: normal;
+}
+.ss{
+	background-color: #eed;
+	}
+.nt{
+	background-color: #fff;
+	}
+td.hd {
+	font-size: 7pt;
+	border-left: solid #000 1px;
+}

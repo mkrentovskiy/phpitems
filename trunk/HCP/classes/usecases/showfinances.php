@@ -1,0 +1,1 @@
+<?	class UCShowFinances extends UseCase 	{		function action($p) 		{			global $db;									$s = $this->eachPage();			$p->add("<document menuid='3'>".$s."</document>");			return $p;		}						function defaultAction($p)		{						$this->goToUsecase("Start");					}	}?>

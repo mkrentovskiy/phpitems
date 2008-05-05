@@ -1,0 +1,4 @@
+<?	class UCStartSSL extends UseCase 	{		function defaultAction($p)		{					global	$db;				$cid = 0;			$s = $this->eachPage();						if(isset($_POST['sid']) && strlen($_POST['sid']) > 0) {				if(ereg("([a-z0-9]*)", $_POST['sid'], $rg)) {					$sid = $rg[1];
+					$ip = getenv("REMOTE_ADDR");					$now = date("Y-m-d H:i:s");					$obj = addslashes(serialize($this->user));													$res = $db->query("SELECT * FROM sessions WHERE ip='$ip' AND tmark > DATE_SUB(NOW(), INTERVAL 1 MINUTE)");					
+					if(count($res) < 5) {						$db->query("INSERT INTO sessions SET sid='$sid', tmark='$now', ip='$ip', obj='$obj'");
+						$res = $db->query("SELECT id_sessions FROM sessions WHERE sid='$sid' AND tmark='$now' AND ip='$ip' AND obj='$obj'");						$cid = $res[0]['id_sessions'];					};				}			};				$p->add("<document>$s<relocate><url>".htmlspecialchars("?usecase=Start&USERSM=".$cid)."</url></relocate></document>");			return $p;		}	}?>

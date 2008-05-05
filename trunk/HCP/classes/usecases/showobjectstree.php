@@ -1,0 +1,3 @@
+<?	class UCShowObjectsTree extends UseCase 	{		function action($p) 		{			global $db;									$s = $this->eachPage();			$cf = new ClassFactory;			$id = (isset($_GET['id']) && is_numeric($_GET['id'])) ? $_GET['id'] : 0;	            $s .= $cf->getObjectsTree($this, $id, $filter);			
+            // print htmlspecialchars($s);
+            			$p->add("<document menuid='1'>".$s."</document>");			return $p;		}						function defaultAction($p)		{						$this->goToUsecase("Start");					}	}?>

@@ -1,0 +1,2 @@
+<?	class UCDeleteObjectItem extends UseCase 	{		function action($p) 		{			global $db;			if(isset($_GET['oid']) && is_numeric($_GET['oid'])) {				$cf = new ClassFactory;				
+				$cf->deleteObject($this, $_GET['oid']);								$p->add("<ajaxdocument></ajaxdocument>");										}			return $p;		}						function defaultAction($p)		{						$this->goToUsecase("Start");					}	}?>
